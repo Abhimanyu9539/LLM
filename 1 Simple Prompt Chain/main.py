@@ -2,6 +2,7 @@
 import os
 from constants import openai_key
 from langchain.llms import OpenAI, openai
+from langchain_community.llms import OpenAI
 import streamlit as st
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
